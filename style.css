@@ -1,0 +1,11 @@
+.rotated {
+    transform: rotate(-45deg);
+    width: 1500px;
+    height: 200px;
+    background-color: red;
+    z-index: 1;
+    position: fixed;
+    top: 700px;
+    left: 1000px;
+    overflow: hidden;
+}
