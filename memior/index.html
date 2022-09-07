@@ -10,6 +10,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"></script>
+        <script src="../scripts.js"></script>
         <link rel="stylesheet" href="../style.css">
 
         <title>English 2010 Essays</title>
@@ -29,7 +30,7 @@
             <div class="card rounded shadow">
                 <div class="row">
                     <div class="col-2 m-1">
-                        <button style="height: 100%;" class="btn btn-primary" onclick="window.history.back();">Back</button>
+                        <a href="../index.html"><button style="height: 100%;" class="btn btn-primary">Back</button></a>
                     </div>
                     <div class="col-8 text-center">
                         <h1>The Ravine</h1>
@@ -59,6 +60,19 @@
                 literally wasting thousands of dollars when you waste his time. How is this fair in any way? But slowly I came to the
                 realization that he spent thousands of hours making his thousands. I spent 28 hours making my hundreds. So in one way it
                 is fair, but I don’t have to like it.</p>
+            </div>
+
+            <div id="feedbackDiv" class="container"></div>
+
+            <div class="container card">
+                <form>
+                    <div class="form-group">
+                    <label>Feedback</label>
+                    <textarea style="width: 80%; height: 10%;" class="form-control" id="textbox"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary mt-3" onclick="submitFeedback();">Submit</button>
+                </form>
             </div>
         </div>
     </body>
