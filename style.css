@@ -9,3 +9,34 @@
     left: 1000px;
     overflow: hidden;
 }
+
+.firstcharacter {
+    color: #903;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+
+.dropcap::first-letter {
+    /* color: #fcb851; */
+    color: red;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    text-indent: 80px;
+}
+
+.essay {
+    line-height: 2;
+    font-size: 12pt;
+    tab-size: 0.5in;
+}
