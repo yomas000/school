@@ -40,3 +40,8 @@
     font-size: 18pt;
     tab-size: 0.5in;
 }
+
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
+  }
