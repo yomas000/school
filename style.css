@@ -45,3 +45,10 @@
     padding-left: 22px ;
     text-indent: -22px ;
   }
+
+.c-image {
+    width: 1000px; 
+    height: 700px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
