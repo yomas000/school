@@ -52,3 +52,25 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+.quote-left {
+    max-width: 30%;
+    margin-right: 15px;
+    float: left;
+    background-color: #255af7;
+    padding: 20px;
+    color: white;
+}
+
+.quote-right {
+    max-width: 30%;
+    margin-right: 15px;
+    float: right;
+    background-color: #255af7;
+    padding: 20px;
+    color: white;
+}
+
+#quote-link {
+    color: whitesmoke;
+}
